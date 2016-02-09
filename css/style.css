@@ -1,0 +1,189 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	color: #707070;
+	font-size: 13px;
+}
+
+/*=====Header=====*/
+
+header {
+	width: 800px;
+	margin: 0 auto;
+	height: 96px;
+	padding-top: 40px;
+	margin-bottom: 15px;
+}
+
+#header-logo, .header-tabs {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#header-logo {
+	float: left;
+	margin-top: 10px;
+	height: 41px;
+	width: 119px;
+}
+
+#sign-up {
+	list-style-type: none;
+	display: inline;
+	float: right;
+	padding: 0 10px;
+	font-weight: bold;
+	border-right: 1px solid lightgrey;
+	margin-top: 20px;
+}
+
+#log-in {
+	list-style-type: none;
+	display: inline;
+	float: right;
+	padding: 0 10px;
+	margin-top: 20px;
+}
+
+/*=====Main content=====*/
+
+main {
+	width: 800px;
+	margin: 0 auto;
+	height: 680px;
+	border: 1px solid #f1f1f1;
+	box-shadow: 2px 2px 2px 1px #f1f1f1;
+	clear: both;
+}
+
+section {
+	margin-right: 90px;
+	padding: 10px 25px 50px 50px;
+	width: 60%;
+	overflow: hidden;
+	float: left;
+	border-right: 1px solid #e6e6e6;
+}
+
+h1 {
+	font-size: 28px;
+	font-weight: 300;
+	width: 400px;
+	padding: 10px 25px 10px 50px;
+	float: left;
+}
+
+form p {
+	font-size: 12px;
+}
+
+.form-input {
+	padding-bottom: 6px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+.form-input input {
+	width: 300px;
+	height: 30px;
+	border-radius: 5px;
+	border-style: solid;
+	color: #e6e6e6;
+}
+
+#check-remember {
+	padding: 10px 0;
+}
+
+#check-remember input {
+	width: 18px;
+	height: 18px;
+}
+
+#submit-btn input {
+	background-color: #45cae6;
+	padding: 10px 15px;
+	border-radius: 5px;
+	color: #fff;
+	border-style: solid;
+	margin: 25px 0;
+}
+
+.privacy-pol {
+	text-decoration: none;
+}
+
+label {
+	margin: 0 20px 20px 0;
+}
+
+aside {
+	background-color: #f1f1f1;
+	width: 26%;
+	color: #666;
+	overflow: hidden;
+	vertical-align: top;
+	margin-top: 30px;
+}
+
+aside h4 {
+	font-size: 20px;
+	padding-left: 25px;
+	margin-bottom: 10px;
+}
+
+aside a {
+	color: #666;
+}
+
+#rightside-content {
+	width: 95%;
+	height: 450px;
+}
+
+/*=====Footer=====*/
+
+footer {
+	width: 800px;
+	margin: 0 auto;
+	bottom: 0px;
+	position: relative;
+	margin-top: -50px;
+	height: 150px;
+	clear: both;
+	text-align: center;
+	color: #a6a6a6;
+}
+
+#footer-options li {
+	display: inline-block;
+	text-align: center;
+	margin: 50px 0 20px 0;
+}
+
+#footer-options a {
+	text-decoration: none;
+	padding: 20px;
+	color: #a6a6a6;
+	font-size: 12px;
+}
+
+#norton-img {
+	width: 124px;
+	height: 58px;
+	padding: 5px 15px 10px 0;
+}
+
+#truste-img {
+	width: 160px;
+	height: 48px;
+	padding: 0 0 10px 15px;
+}
+
+#footer-icons li {
+	list-style-type: none;
+	display: inline-block;
+}
